@@ -1,48 +1,11 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="stylesheet" type="text/css" href="http://thecatapi.com/api/images/get?format=source&type=gif&size=small">
-	<title>javascript in steroid</title>
-</head>
-<body>
-	<div class="container-1">
-		<h2>Challange:1 Your Age in Days</h2>
-		<div class="flex-box-container-1">
-			<div>
-				<button class="btn btn-primary" onclick="ageInDays()">Click me</button>
-			</div>
-			
-			<div>
-				<button class="btn btn-danger" onclick="reset()">reset</button>
-			</div>
-			
-		</div>
-		<div class="flex-box-container-1">
-			<div id="flex-box-result"></div>
-			
-		</div>
-	</div>
-	<div class="container-2">
-		<h2>Challange:2 Cat Generator</h2>
-		<button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button>
-		<div class="flex-box-container-2" id="flex-cat-gen">
-		</div>
-	</div>
+	<script src="/js/script.js"></script>
 
-	<div class="container-3">
-		<h2>Challange 3:Rock,Paper,Scissors</h2>
-		<div class="flex-box-rps" id="flex-box-rps-div">
-			<img  id="rock"    src="http://images.clipartpanda.com/rock-clipart-clipart-harvestable-resources-rock.png" height="150" width="150" onclick="rpsGame(this)">
+	<button onclick="printMyName('name')">My Name</button>
+	<button onclick="printMyName('age')">Age</button>
+	<button  onclick="printMyName('gender')">Gender</button>
 
-			<img  id="paper"    src="http://images.clipartpanda.com/paper-clipart-nexxuz-Loose-Leaf-Paper.png" height="150" width="150" onclick="rpsGame(this)">
-
-			<img  id="scissors"    src="http://thumbs.dreamstime.com/b/female-hand-sign-victory-sign-peace-sign-scissors-vector-color-flat-illustration-isolated-white-background-web-83128345.jpg" height="150" width="150" onclick="rpsGame(this)">
-		</div>
-	</div>
-	<script src="/js/"></script>
-</body>
+	<p id="name"></p>
+	<p id="age"></p>
+	<p id="gender"></p>
 </html>
-
-
