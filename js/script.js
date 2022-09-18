@@ -10,3 +10,9 @@ function printMyName(args){
 	}
 
 }
+function getMyLength(stringvalue){
+	document.getElementById('num').innerHTML=stringvalue.length;
+}
+function sliceForMe(stringvalue,startIndex,endIndex){
+	document.getElementById('sliceForMe').innerHTML=stringvalue.slice(startIndex,endIndex);
+}
