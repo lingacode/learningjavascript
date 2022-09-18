@@ -16,6 +16,7 @@ function getMyLength(stringvalue){
 function sliceForMe(stringvalue,start,end){
 	document.getElementById('sliceForMe').innerHTML=stringvalue.slice(start,end);
 }
-function myFunction() {
-	document.getElementById("myNumber").stepUp(5);
-  }
+
+function concat(firstName,lastName){
+	document.getElementById('concat').innerHTML=firstName.concat(" "+lastName);
+}
