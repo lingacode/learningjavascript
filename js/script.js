@@ -13,6 +13,9 @@ function printMyName(args){
 function getMyLength(stringvalue){
 	document.getElementById('num').innerHTML=stringvalue.length;
 }
-function sliceForMe(stringvalue,startIndex,endIndex){
-	document.getElementById('sliceForMe').innerHTML=stringvalue.slice(startIndex,endIndex);
+function sliceForMe(stringvalue,start,end){
+	document.getElementById('sliceForMe').innerHTML=stringvalue.slice(start,end);
 }
+function myFunction() {
+	document.getElementById("myNumber").stepUp(5);
+  }
