@@ -18,5 +18,5 @@ function sliceForMe(stringvalue,start,end){
 }
 
 function concat(firstName,lastName){
-	document.getElementById('concat').innerHTML=firstName.concat(" "+lastName);
+	document.getElementById('concat').innerHTML=firstName.concat(" ",lastName);
 }
