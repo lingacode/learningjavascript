@@ -39,6 +39,10 @@ function  lastindexof(string,graph){
 	document.getElementById('indexof').innerHTML=string.lastIndexOf(graph);
 }
 function  include(string,graph){
-	document.getElementById('indexof').innerHTML=string.includes(graph);
-	
+	document.getElementById('indexof').innerHTML=string.includes(graph);	
+}
+function match(string,value){
+	var text="/"+value+"/g";
+	console.log(text);
+	document.getElementById('out').innerHTML=string.match(text);
 }
