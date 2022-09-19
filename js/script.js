@@ -38,3 +38,7 @@ function  indexof(string,paragraph){
 function  lastindexof(string,graph){
 	document.getElementById('indexof').innerHTML=string.lastIndexOf(graph);
 }
+function  include(string,graph){
+	document.getElementById('indexof').innerHTML=string.includes(graph);
+	
+}
