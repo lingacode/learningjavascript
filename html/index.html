@@ -1,38 +1,52 @@
+<!DOCTYPE html>
 <html>
-	<script src="/js/script.js"></script>
 
+<head>
+	<script src="/js/script.js"></script>
+</head>
+
+<body>
 	<button onclick="printMyName('name')">My Name</button>
 	<button onclick="printMyName('age')">Age</button>
-	<button  onclick="printMyName('gender')">Gender</button>
+	<button onclick="printMyName('gender')">Gender</button>
 
 	<p id="name"></p>
 	<p id="age"></p>
 	<p id="gender"></p>
+
+	<h1>String Method</h1>
+	<h3>Enter Your Stirng</h3><input type="text" id="inputvalue" value="this is is"></br>
+	<button onclick="getMyLength(getElementById('inputvalue').value)">Get Length</button></br>
+	<input type="number" id="start"><input type="number" id="end"><button
+		onclick="sliceForMe(getElementById('inputvalue').value,getElementById('start').value,getElementById('end').value)">slice
+		For Me</button></br>
+	<input type="text" id="firstName"><button
+		onclick="concat(getElementById('inputvalue').value,getElementById('firstName').value)">concat</button></br>
+	<button onclick="toUpperCase(getElementById('inputvalue').value)">uppercase</button></br>
+	<button onclick="toLowerCase(getElementById('inputvalue').value)">lowercase</button></br>
+	<button onclick="trim(getElementById('inputvalue').value)">trim</button></br>
+	<input type="text" id="replacement"><input type="text" id="change"><button
+		onclick="replace(getElementById('inputvalue').value,getElementById('replacement').value,getElementById('change').value)">replace</button></br>
+	<input type="text" id="paragraph"><button
+		onclick="indexof(getElementById('inputvalue').value,getElementById('paragraph').value)">indexof</button></br>
+	<input type="text" id="graph"><button
+		onclick="lastindexof(getElementById('inputvalue').value,getElementById('graph').value)">lastindexof</button></br>
+	<input type="text" id="include"><button
+		onclick="include(getElementById('inputvalue').value,getElementById('include').value)">boolean</button></br>
+	<input type="text" id="serach"><button
+		onclick="match(getElementById('inputvalue').value,getElementById('serach').value)">serach</button>
+
+	<p id="num"></p>
+	<p id="sliceForMe"></p>
+	<p id="concat"></p>
+	<p id="uppercase"></p>
+	<p id="lowercase"></p>
+	<p id="trim"></p>
+	<p id="replace"></p>
+	<p id="indexof"></p>
+	<p id="lastindexof"></p>
+	<p id="include"></p>
+	<p id="out"></p>
+</body>
+
 </html>
-<h1>String Method</h1>
-<h3>Enter Your Stirng</h3><input type="text" id="inputvalue" value="this is is"></br>
-<button onclick="getMyLength(getElementById('inputvalue').value)">Get Length</button></br>
-<input type="number" id="start"><input type="number" id="end"><button onclick="sliceForMe(getElementById('inputvalue').value,getElementById('start').value,getElementById('end').value)">slice For Me</button></br>
-<input type="text"   id="firstName"><button onclick="concat(getElementById('inputvalue').value,getElementById('firstName').value)">concat</button></br>
-<button onclick="toUpperCase(getElementById('inputvalue').value)">uppercase</button></br>
-<button onclick="toLowerCase(getElementById('inputvalue').value)">lowercase</button></br>
-<button onclick="trim(getElementById('inputvalue').value)">trim</button></br>
-<input type="text" id="replacement"><input type="text" id="change"><button onclick="replace(getElementById('inputvalue').value,getElementById('replacement').value,getElementById('change').value)">replace</button></br>
-<input type="text" id="paragraph"><button onclick="indexof(getElementById('inputvalue').value,getElementById('paragraph').value)">indexof</button></br>
-<input type="text" id="graph"><button onclick="lastindexof(getElementById('inputvalue').value,getElementById('graph').value)">lastindexof</button></br>
-<input type="text" id="include"><button onclick="include(getElementById('inputvalue').value,getElementById('include').value)">boolean</button></br>
-<input type="text" id="serach"><button onclick="match(getElementById('inputvalue').value,getElementById('serach').value)">serach</button>
-
-<p id="num"></p>
-<p id="sliceForMe"></p>
-<p id="concat"></p>
-<p id="uppercase"></p>
-<p id="lowercase"></p>
-<p id="trim"></p>
-<p  id="replace"></p>
-<p id="indexof"></p>
-<p id="lastindexof"></p>
-<p id="include"></p>
-<p id="out"></p>
-
-
