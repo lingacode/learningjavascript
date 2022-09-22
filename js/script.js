@@ -46,3 +46,15 @@ function match(string,value){
 	console.log(text);
 	document.getElementById('out').innerHTML=string.match(text);
 }
+
+
+
+function printOption(num){
+	var htmlOutPut="Index: <select>";
+	for(var a=1;a<=num;a++){
+		htmlOutPut += `<option>${a}</option>`;
+
+	}
+	htmlOutPut += "</select>";
+	document.getElementById('output').innerHTML=htmlOutPut;
+}
