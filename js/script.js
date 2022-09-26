@@ -3,7 +3,7 @@ function printMyName(args){
 		document.getElementById("name").innerHTML="Linga";
 	}
 	if(args == "age"){
-		document.getElementById("age").innerHTML=22;
+		document.getElementById("age").innerHTML=23;
 	}
 	if(args == "gender"){ 
 		document.getElementById("gender").innerHTML="Male";
