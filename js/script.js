@@ -5,7 +5,7 @@ function printMyName(args){
 	if(args == "age"){
 		document.getElementById("age").innerHTML=22;
 	}
-	if(args == "gender"){
+	if(args == "gender"){ 
 		document.getElementById("gender").innerHTML="Male";
 	}
 
