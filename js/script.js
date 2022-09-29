@@ -78,7 +78,7 @@ function calculate(num,mulnum,divnum){
 			result.push(numarray[i]);
 		}
 	}
-	console.log(calculate);
+	
 	document.getElementById('answer').innerHTML=calculate;
 }
 
