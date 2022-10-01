@@ -93,9 +93,6 @@
 	for(i=0;i<value;i++){
  		numArray.push(i);
 	}
-	Array.array.forEach(element => {
-		
-	});
 	var newArray=numArray.map(x=>x*mul)
 	              .filter(y=>y%div==0);
 	document.getElementById('answer').innerHTML=newArray;
