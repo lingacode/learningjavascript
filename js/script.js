@@ -106,3 +106,7 @@
 // 		document.getElementById('add').innerHTML=parseInt(start)+parseInt(end);
 
 // 	 }
+
+function myNumber(number) {
+	document.getElementById("myId").innerHTML = Math.sqrt(number);
+}

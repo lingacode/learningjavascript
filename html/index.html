@@ -90,7 +90,21 @@
 		document.getElementById('answer').innerHTML = finalsum;
 	</script> -->
 	<h1 id="todaydate"></h1>
-<button onclick="document.getElementById('todaydate').innerHTML=new Date()">display Date</button>
+	
+<button onclick="document.getElementById('todaydate').innerHTML=new Date()">display Date</button><br>
+<button onclick="document.getElementById('value').innerHTML=Math.PI">pi value</button><br>
+<button onclick="document.getElementById('value').innerHTML=Math.E">e value</button><br>
+<button onclick="document.getElementById('value').innerHTML=Math.SQRT2">sqrt2 value</button><br>
+<button onclick="document.getElementById('value').innerHTML=Math.SQRT1_2">sqrt1-2 value</button><br>
+<button onclick="document.getElementById('value').innerHTML=Math.LOG2E">log2e value</button><br>
+<button onclick="document.getElementById('value').innerHTML=Math.LOG10E"> value</button><br>
+<button onclick="document.getElementById('value').innerHTML=Math.LN2">ln2 value</button><br>
+<button onclick="document.getElementById('value').innerHTML=Math.LN10">ln10 value</button><br>
+
+<input type="number" id="value" value="">
+<button onclick="myNumber(getElementById('value').value)">click</button>
+<p id="myId"></p>
+
 
 
 
