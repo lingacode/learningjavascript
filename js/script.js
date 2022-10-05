@@ -110,24 +110,6 @@
 function myNumber(number) {
 	document.getElementById("myId").innerHTML = Math.sqrt(number);
 }
-function Number(num) {
-	document.getElementById("input").innerHTML =Math.PI(num);
+function Number() {
+	document.getElementById("input").innerHTML =Math.PI;
 }
-// function mNumber(number) {
-// 	document.getElementById("myId").innerHTML =Math.E(number);
-// }
-// function myNumbe(number) {
-// 	document.getElementById("myId").innerHTML = Math.SQRT1_2(number);
-// }
-// function yNumber(number) {
-// 	document.getElementById("myId").innerHTML = Math.LOG2E(number);
-// }
-// function umber(number) {
-// 	document.getElementById("myId").innerHTML = Math.LN2(number);
-// }
-// function papun(number) {
-// 	document.getElementById("myId").innerHTML =Math.LN10(number);
-// }
-// function Linga(number) {
-// 	document.getElementById("myId").innerHTML = Math.LOG10E(number);
-// }
