@@ -113,3 +113,15 @@ function myNumber(number) {
 function Number() {
 	document.getElementById("input").innerHTML =Math.PI;
 }
+
+function myfunction(){
+let greeting;
+
+if (new Date().getHours() < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+document.getElementById("day").innerHTML = greeting;
+}
