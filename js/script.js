@@ -115,13 +115,13 @@ function Number() {
 }
 
 function myfunction(){
-let greeting;
+let message;
 
 if (new Date().getHours() < 18) {
-  greeting = "Good day";
+  message = "Good day";
 } else {
-  greeting = "Good evening";
+  message = "Good evening";
 }
 
-document.getElementById("day").innerHTML = greeting;
+document.getElementById("day").innerHTML = message;
 }
