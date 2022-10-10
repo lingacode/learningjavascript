@@ -88,15 +88,15 @@
 
 	
  
- function calculate2(value,mul,div){
-	var numArray=[];
-	for(i=0;i<value;i++){
- 		numArray.push(i);
-	}
-	var newArray=numArray.map(x=>x*mul)
-	              .filter(y=>y%div==0);
-	document.getElementById('answer').innerHTML=newArray;
- }
+//  function calculate2(value,mul,div){
+// 	var numArray=[];
+// 	for(i=0;i<value;i++){
+//  		numArray.push(i);
+// 	}
+// 	var newArray=numArray.map(x=>x*mul)
+// 	              .filter(y=>y%div==0);
+// 	document.getElementById('answer').innerHTML=newArray;
+//  }
 
 
 
@@ -107,48 +107,55 @@
 
 // 	 }
 
-function myNumber(number) {
-	document.getElementById("myId").innerHTML = Math.sqrt(number);
-}
-function Number() {
-	document.getElementById("input").innerHTML =Math.PI;
-}
+// function myNumber(number) {
+// 	document.getElementById("myId").innerHTML = Math.sqrt(number);
+// }
+// function Number() {
+// 	document.getElementById("input").innerHTML =Math.PI;
+// }
 
-function myfunction(){
-let message;
+// function myfunction(){
+// let message;
 
-if (new Date().getHours() < 18) {
-  message = "Good day";
-} else {
-  message = "Good evening";
-}
+// if (new Date().getHours() < 18) {
+//   message = "Good day";
+// } else {
+//   message = "Good evening";
+// }
 
-document.getElementById("day").innerHTML = message;
-}
+// document.getElementById("day").innerHTML = message;
+// }
 
-function days(){
-	let day;
-switch (new Date().getDay()) {
-  case 0:
-    day = "Sunday";
-    break;
-  case 1:
-    day = "Monday";
-    break;
-  case 2:
-    day = "Tuesday";
-    break;
-  case 3:
-    day = "Wednesday";
-    break;
-  case 4:
-    day = "Thursday";
-    break;
-  case 5:
-    day = "Friday";
-    break;
-  case  6:
-    day = "Saturday";
+// function days(){
+// 	let day;
+// switch (new Date().getDay()) {
+//   case 0:
+//     day = "Sunday";
+//     break;
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//     day = "Tuesday";
+//     break;
+//   case 3:
+//     day = "Wednesday";
+//     break;
+//   case 4:
+//     day = "Thursday";
+//     break;
+//   case 5:
+//     day = "Friday";
+//     break;
+//   case  6:
+//     day = "Saturday";
+// }
+// document.getElementById("dem").innerHTML = "Today is " + day;
+// }
+const number=[1,100,24,45,118];
+number.sort(compareFunction);
+function compareFunction(a,b){
+  return a-b;
 }
-document.getElementById("dem").innerHTML = "Today is " + day;
-}
+console.log(number);
+document.getElementById('answer').innerHTML=number;
