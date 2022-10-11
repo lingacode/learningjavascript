@@ -152,10 +152,42 @@
 // }
 // document.getElementById("dem").innerHTML = "Today is " + day;
 // }
-const number=[1,100,24,45,118];
-number.sort(compareFunction);
-function compareFunction(a,b){
-  return a-b;
-}
-console.log(number);
-document.getElementById('answer').innerHTML=number;
+// const number=[1,100,24,45,118];
+// number.sort(compareFunction);
+// function compareFunction(a,b){
+//   return a-b;
+// }
+// console.log(number);
+// document.getElementById('answer').innerHTML=number;
+
+
+// const letter=new Set(["linga","papun"]);//set method;
+// letter.add("linagarj");//add
+// const one=1;
+// letter.add(one);//add variable
+// let text="";
+// letter.forEach(function(value){
+//   text += value + "<br>";
+// })
+// console.log(text);
+
+//create a Map
+// const number=new Map([
+//   ["one",1],
+//   ["two",2],
+//   ["Three",3]
+// ]);
+
+const number=new Map();
+number.set("one",1);
+number.set("Two",2);
+number.set("Three",3);
+console.log(number.get("one"));
+console.log(number.size);
+console.log(number.has("one"));
+let text="";
+number.forEach((value,key)=>text += key + '='+value);
+console.log(text);
+
+
+
