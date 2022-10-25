@@ -125,14 +125,14 @@
 
 
 <!-- <input type="button" onclick="compareFunction()" value="sorting"> -->
-<p id="answer"></p>
+<p   id="answer"></p>
 
 <script>
 	let text = '{"employees":[' +
 	'{"firstName":"John","lastName":"Doe" },' +
 	'{"firstName":"Anna","lastName":"Smith" },' +
 	'{"firstName":"Peter","lastName":"Jones" }]}';
-	
+	     
 	const obj = JSON.parse(text);
 	document.getElementById("answer").innerHTML =
 	obj.employees[1].firstName + " " + obj.employees[1].lastName;
