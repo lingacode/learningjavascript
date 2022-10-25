@@ -178,16 +178,19 @@
 //   ["Three",3]
 // ]);
 
-const number=new Map();
-number.set("one",1);
-number.set("Two",2);
-number.set("Three",3);
-console.log(number.get("one"));
-console.log(number.size);
-console.log(number.has("one"));
-let text="";
-number.forEach((value,key)=>text += key + '='+value);
-console.log(text);
+// const number=new Map();
+// number.set("one",1);
+// number.set("Two",2);
+// number.set("Three",3);
+// console.log(number.get("one"));
+// console.log(number.size);
+// console.log(number.has("one"));
+// let text="";
+// number.forEach((value,key)=>text += key + '='+value);
+// console.log(text);
+
+
+
 
 
 
