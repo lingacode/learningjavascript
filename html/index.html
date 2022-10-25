@@ -128,14 +128,14 @@
 <p id="answer"></p>
 
 <script>
-	let text = '{"employees":[' +
-	'{"firstName":"John","lastName":"Doe" },' +
-	'{"firstName":"Anna","lastName":"Smith" },' +
-	'{"firstName":"Peter","lastName":"Jones" }]}';
+	let text = '{"students":[' +
+	'{"firstName":"lingaraj","lastName":"patra" ,"mobileNumber"="8658611542"},' +
+	'{"firstName":"amit","lastName":"Sahu" },' +
+	'{"firstName":"Peter","lastName":"england" }]}';
 	     
 	const obj = JSON.parse(text);
 	document.getElementById("answer").innerHTML =
-	obj.employees[1].firstName + " " + obj.employees[1].lastName;
+    Name=obj.employees[1].firstName + " " + obj.employees[1].lastName;
 	</script>
 	
 

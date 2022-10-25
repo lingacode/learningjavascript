@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+            h4{
+                margin: 0;
+                padding: 5px;
+                background: #f4f4f4;
+            }
+            li{
+                list-style:none;
+                padding-left: 5px;
+            }
+            #container{
+                width: 600px;
+                margin: auto;
+                overflow: hidden;
+            }
+        </style>
+        <script>
+            var data=[
+                {
+                    College:"Disha college",
+                    Name:"Linagarj patra",
+                    class:"BCA",
+                    Year:"2022"
+                },
+                {
+                    College:"Roland",
+                    Name:"papun patra",
+                    class:"BBA",
+                    Year:"2022"
+                },
+                {
+                    College:"Disha",
+                    Name:"Linagarj patra",
+                    class:"MCA",
+                    Year:"2022"
+                }
+            ];
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>STUDENT DATA</h1>
+        <ul>
+        <script>
+            for(i=0;i< data.length;i++){
+                document.write('<h4>'+data[i].College+'</h4>');
+                document.write('<li>'+data[i].Name+'</li>');
+                document.write('<li>'+data[i].class+'</li>');
+                document.write('<li>'+data[i].Year+'</li>');
+            }
+        </script>
+        </ul>
+    </div>
+    </body>
+</html>
