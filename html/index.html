@@ -125,7 +125,7 @@
 
 
 <!-- <input type="button" onclick="compareFunction()" value="sorting"> -->
-<p id="answer"></p>
+<!-- <p id="answer"></p>
 
 <script>
 	let text = '{"students":[' +
@@ -136,6 +136,30 @@
 	const obj = JSON.parse(text);
 	document.getElementById("answer").innerHTML =
     Name=obj.employees[1].firstName + " " + obj.employees[1].lastName;
+	</script> -->
+
+
+	<button id="btn">submit</button>
+	<ul id="list">
+		<li id="demo">1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+	</ul>
+	<p id="demo"></p>
+	<script>
+		const button = document.getElementById("btn");
+		const list= document.getElementById("list");
+		list.style.display = "none";
+		button.addEventListener("click",(event)=>{
+			if(list.style.display == "none"){
+				list.style.display = "block"
+			}else{
+				list.style.display = "none";
+			}
+		})
+		var val = Math.floor(1 + Math.random() * 10);
+       document.getElementById("demo").innerHTML = val;
 	</script>
 	
 
