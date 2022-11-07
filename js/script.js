@@ -64,24 +64,24 @@
 
 
 
-// function calculate1(num,mulnum,divnum){
-// 	var numarray=[];
-// 	var result=[];
-// 	for(i=0;i<num;i++){
-// 		numarray.push(i);
-// 	}
-// 	 for(i=0;i< numarray.length;i++){
-// 	 	numarray[i]=numarray[i]*mulnum;
-// 	 }
-// 	for(i=0;i<numarray.length;i++){
-// 		if(numarray[i]%divnum == 0){
-// 			result.push(numarray[i]);
-// 			console.log(result);
-// 		}
-// 	}
+function calculate1(num,mulnum,divnum){
+	var numarray=[];
+	var result=[];
+	for(i=0;i<num;i++){
+		numarray.push(i);
+	}
+	 for(i=0;i< numarray.length;i++){
+	 	numarray[i]=numarray[i]*mulnum;
+	 }
+	for(i=0;i<numarray.length;i++){
+		if(numarray[i]%divnum == 0){
+			result.push(numarray[i]);
+			console.log(result);
+		}
+	}
 	
-//  document.getElementById('answer').innerHTML=result;
-//  }
+ document.getElementById('answer').innerHTML=result;
+ }
 
 
 
