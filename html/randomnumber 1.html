@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Random Between Min & Max </title>
+</head>
+<body>
+<h2>Random Between Min & Max</h2>
+
+<button onclick="randBetween()">Try it</button>
+
+<p id="random"></p>
+
+<script>
+function randBetween() {
+  let min = parseInt(prompt("Please enter the number"));
+  let max = parseInt(prompt("Please enter maximum number"));
+  if (min !=null && max != null && min < max) {
+  let randBetween = Math.floor(Math.random() * (max - min + 1)) + min;
+  document.getElementById("random").innerHTML = randBetween;
+  }else{
+  alert("Enter min and max value and max value must be greater than min");
+  }
+}
+</script>
+</body>
+</html>

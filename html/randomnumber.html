@@ -2,83 +2,19 @@
 <html>
 
 <head>
-    <!-- <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        I body {
-            font-family: "Montserrat", sans-serif;
-            background: rgb(28, 96, 243);
-            text-align: center;
-            color: aliceblue;
-        }
-
-        header {
-            background: rgb(54, 54, 54);
-            padding: 10px;
-        }
-
-        label {
-            display: inline-block;
-            font-weight: bold;
-            padding: 10px;
-        }
-
-        input {
-            border: none;
-            font-size: 20px;
-            height: 40px;
-            padding: 10px;
-        }
-
-        section button {
-            padding: 5px 7px;
-            margin: 15px;
-            border: none;
-            font-family: "Montserrat", sans-serif;
-            color: aliceblue;
-            background: Orgb(54, 54, 54);
-            font-size: 17px;
-            cursor: pointer;
-            transition: 0.3s ease-in-out;
-        }
-
-        section button:hover {
-            background: rgb(39, 39, 39);
-        }
-    </style> -->
+    <title></title>
 </head>
 
 <body>
-    <section>
-        <label>From:</label>
-        <input type="number" class="fromNum"><br>
-        <label>To:</label>
-        <input type="number" class="toNum"><br>
-        <button type="submit" class="generateBtn">generate</button>
-    </section>
-
-    <div>
-        <h1 class="randomNumE1"></h1>
-    </div>
-
-    <script>
-        const generateBtn = document.querySelector(".generateBtn");
-        generateBtn.addEventListener(" click", generateRandomNum);
-        function generateRandomNum() {
-            const fromNum = document.querySelector( ".fromNum").value;
-            const toNum = document.querySelector(". toNum").value;
-            randomNum = Math.floor(Math.random() * parseInt(toNum));
-            if (randomNum >= parseInt(fromNum)) {
-                const randomNumE1 = document.querySelector(".randomNumE1");
-                randomNumEl.innerHTML = randomNum;
-            }
-        }
+    <script type="text/javascript">
+        var userInput = prompt("Enter Your Number");
+        userInput = parseInt(userInput);
+        // Random Number with User Input
+        var randomNumber = Math.floor(Math.random() *  Math.pow(10,userInput)) + 1;
+        alert("Your Random Number is " + randomNumber);
+        document.write("Your random Number is " +
+            randomNumber);
     </script>
-
 </body>
 
 </html>
